@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="ISO-8859-1">
+	
+	<title>Exam 22 | Login Page</title>
+	
+	<style>
+		body { font-family: Arial, Helvetica, sans-serif; }
+		h1, h3, form, p { padding: 10px; }
+		h1 { background-color: #E7E7E7; font-family: "Times New Roman", Times, serif; }
+		th { color: #000A6E; text-align:left; font-weight: normal; }
+		input { margin: 2px 4px; padding: 6px 12px; border-radius: 10px; font-size: 1.2em; }
+	</style>
+	
+</head><body>
+
+	<h1>Exam - September 2022</h1>
+
+	<h3>Login Page</h3>
+	
+	<!-- Update action if being required -->
+	<form action="LoginServlet" method="POST">
+		<table>
+			<tr>
+				<th>Username:</th>
+				<td> <input type="text" name="username"> </td>
+			</tr>
+			<tr>
+				<th>Password:</th>
+				<td> <input type="password" name="password"> </td>
+			</tr>
+			<tr>
+				<td> <input type="reset" value="Reset" > </td>
+				<td> <input type="submit" value="Login"> </td>
+			</tr>
+		</table>
+	</form>
+
+</body></html>

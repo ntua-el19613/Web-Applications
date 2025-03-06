@@ -1,0 +1,19 @@
+h1,h3{
+	color:red; 
+	text-align:center;
+}
+
+table{
+	margin-left:auto; 
+	margin-right:auto; 
+	background:green;
+	border:4px dashed black;
+}
+
+input[type=reset]{
+	color:blue; 
+}
+
+input[type=submit]{
+	color:green; 
+}

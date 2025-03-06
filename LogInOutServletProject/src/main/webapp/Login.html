@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html><head>
+	
+	<meta charset="ISO-8859-1">
+	<title>Exam Sep 23 | Login Page</title>
+	
+	<style>
+	
+		body { background-color:lightgrey; }
+		h1 { text-align: center; color: green; }
+		h3 { text-align: center; }
+		table { width:100px; padding: 20px 30px; text-align: center; 
+		margin: 5px; margin-left:auto; margin-right:auto; border: 2px solid gray; border-radius: 15px;}
+		input[type=reset] { border: 5px; border-style: dashed; border-color: grey;}
+		
+	</style>
+	
+</head><body>
+
+	<h1>Exam - September 2023</h1>
+
+	<h3>Login Page</h3>
+	
+	<!-- UPDATE FORM ATTRIBUTES -->
+	<form action="LoginServlet" method="POST">
+		<table>
+			<tr>
+				<th>Username:</th>
+				<td> <input type="text" name="username"> </td>
+			</tr>
+			<tr>
+				<th>Password:</th>
+				<td> <input type="password" name="password"> </td>
+			</tr>
+			<tr>
+				<td> <input type="reset" value="Reset" > </td>
+				<td> <input type="submit" value="Login"> </td>
+			</tr>
+		</table>
+	</form>
+
+
+</body></html>
